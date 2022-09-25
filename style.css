@@ -16,6 +16,7 @@ grid-template-columns: 1fr 5fr;
     align-items: center;
     overflow: auto;
     column-gap: 10px;
+    padding-left: 30px;
     
 }
 .searchicon {
@@ -110,6 +111,12 @@ button.upload {
     grid-template-rows: repeat(20, 1fr);
     background-color:#3b82f6;
     color: white;
+    justify-items: center;
+    align-items: center;
+    overflow: auto;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
 }
 .project {
     display: grid;
@@ -118,4 +125,105 @@ button.upload {
 .updates {
     display: grid;
     grid-column: 2 / 3;
+}
+img.dashicon {
+    display: grid;
+    grid-row: 2/3;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(270deg) brightness(103%) contrast(100%);   
+}
+.dashboard {
+    display: grid;
+    grid-row: 2/3;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.homeicon {
+    display: grid;
+    grid-row: 4/5;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(270deg) brightness(103%) contrast(100%);   
+    width: 30px;
+}
+.home {
+    display: grid;
+    grid-row: 4/5;
+}
+img.profileicon {
+    display: grid;
+    grid-row: 5/6;
+    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(270deg) brightness(103%) contrast(100%);   
+}
+.profile {
+    display: grid;
+    grid-row: 5/6;
+}
+img.messageicon {
+    display: grid;
+    grid-row: 6/7;
+    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(270deg) brightness(103%) contrast(100%);   
+}
+.message {
+    display: grid;
+    grid-row: 6/7;
+}
+img.historyicon {
+    display: grid;
+    grid-row: 7/8;
+    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(270deg) brightness(103%) contrast(100%);   
+}
+.history {
+    display: grid;
+    grid-row: 7/8;
+}
+img.taskicon {
+    display: grid;
+    grid-row: 8/9;
+    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(270deg) brightness(103%) contrast(100%);   
+}
+.tasks {
+    display: grid;
+    grid-row: 8/9;
+}
+img.communityicon {
+    display: grid;
+    grid-row: 9/10;
+    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(270deg) brightness(103%) contrast(100%);   
+}
+.community {
+    display: grid;
+    grid-row: 9/10;
+}
+img.settingicon {
+    display: grid;
+    grid-row: 11/12;
+    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(270deg) brightness(103%) contrast(100%);   
+}
+.setting {
+    display: grid;
+    grid-row: 11/12;
+}
+img.supporticon {
+    display: grid;
+    grid-row: 12/13;
+    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(270deg) brightness(103%) contrast(100%);   
+}
+.support {
+    display: grid;
+    grid-row: 12/13;
+}
+img.privacyicon {
+    display: grid;
+    grid-row: 13/14;
+    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(270deg) brightness(103%) contrast(100%);   
+}
+.privacy {
+    display: grid;
+    grid-row: 13/14;
 }
