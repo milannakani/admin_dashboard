@@ -1,0 +1,121 @@
+* {
+font-family: "Roboto";
+margin: 0px;
+padding: 0px;
+}
+.container {
+display: grid;
+grid-template-columns: 1fr 5fr;
+}
+.header {
+    display: grid;
+    grid-column: 2 / 3 ;
+    grid-template-columns: repeat(20, minmax(40px,1fr));
+    grid-template-rows: repeat(2, 1fr);
+    padding: 10px;
+    align-items: center;
+    overflow: auto;
+    column-gap: 10px;
+    
+}
+.searchicon {
+    display: grid;
+    height: 25px;
+    width: 25px;
+}
+.searchbar {
+    display: grid;
+    grid-column: 2 / 15;
+}
+input {
+    display: grid;
+    width: 400px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;   
+    background-color:#cbd5e1;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.bellicon {
+    display: grid;
+    height: 20px;
+    width: 20px;
+    grid-column: 17 / 18;
+}
+img.maskot1 {
+    display: grid;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+    grid-column: 18 / 19;
+}
+.name {
+    display: grid;
+    grid-column: 19 / 21;
+    font-size: 16px;
+    font-weight: bold;
+}
+img.maskot2 {
+    display: grid;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    grid-row: 2;
+    grid-column: 1 / span 2;
+}
+.fullname {
+    display: grid;
+    grid-column: 2 /  15;
+    grid-row: 2;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hi {
+    font-size: 16px;
+}
+button {
+    display: grid;
+    grid-row: 2;
+    border-radius: 15px;
+    width: 55px;
+    height: 30px;
+    align-items: center;
+    background-color: #3b82f6;
+    color: white;
+    border: 1px solid;
+    font-size: 16px;
+}
+button.new {
+    display: grid;
+    grid-row: 2;
+    grid-column: 16 / 17;
+}
+button.share {
+    display: grid;
+    grid-row: 2;
+    grid-column: 18 / 19;
+}
+button.upload {
+    display: grid;
+    grid-row: 2;
+    grid-column: 20 / 21;
+}
+.sidebar {
+    display: grid;
+    grid-row: 1 / span 4;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    background-color:#3b82f6;
+    color: white;
+}
+.project {
+    display: grid;
+    grid-column: 2 / 3;
+}
+.updates {
+    display: grid;
+    grid-column: 2 / 3;
+}
