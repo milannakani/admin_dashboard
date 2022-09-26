@@ -122,10 +122,6 @@ button.upload {
     display: grid;
     grid-column: 2 / 3;
 }
-.updates {
-    display: grid;
-    grid-column: 2 / 3;
-}
 img.dashicon {
     display: grid;
     grid-row: 2/3;
@@ -226,4 +222,85 @@ img.privacyicon {
 .privacy {
     display: grid;
     grid-row: 13/14;
+}   
+
+.content {
+    display: grid;
+    grid-row: 2 /span 3;
+}
+.project {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px,400px));
+    grid-template-rows: 40px 180px 180px 180px;
+    background-color: #cbd5e1;
+    gap: 10px;
+    padding: 10px;
+    grid-column: 1;
+}
+.projectinside {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 350px;
+    gap: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border-left: 8px solid #facc15;
+    padding: 10px;
+}
+.projecttitle {
+    display: grid;
+    grid-column: span 2;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight:500;
+}
+.box-1 {
+    font-weight: bold;
+    font-size: 16px;
+}
+.box-3 {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+}
+.star {
+    width: 20px;
+}
+.view {
+    width: 20px;
+}
+.shareable {
+    width: 20px;
+}
+.updates {
+    display: grid;
+    grid-column: 2 / 3;
+    background-color: #cbd5e1;
+    padding: 10px;
+}
+.atitle {
+    display: grid;
+    grid-column: span 2;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight:500;
+}
+.boxcontentone {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.abox {
+
+}
+.line {
+    height: 1px;
+    width: auto;
+    background: black;
+
 }
