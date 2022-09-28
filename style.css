@@ -279,8 +279,12 @@ img.privacyicon {
 .updates {
     display: grid;
     grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
     background-color: #cbd5e1;
-    padding: 10px;
+    padding-top: 10px;
+    overflow: auto;
+    padding-right: 10px;
 }
 .atitle {
     display: grid;
@@ -303,7 +307,7 @@ img.privacyicon {
     margin: 0px;
 }
 .abox {
-//padding: 10px;
+    padding: 10px;
 }
 .line {
     height: 1px;
@@ -314,3 +318,37 @@ img.privacyicon {
     font-weight: bold;
     font-size: 16px;
 }
+.ids {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(4, auto);
+    background-color: white;
+    border-radius: 10px;
+    overflow: auto;
+    row-gap: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 180px;
+}
+.roundicon {
+    display: grid;
+    height: 40px;
+    width: 40px;
+    justify-self: center;
+    border-radius: 50%;
+    background-color: #e5e7eb;
+}
+.handle {
+    font-weight: bold;
+}
+.handlename {
+    font-size: 14px;
+    color: gray;
+}
+.trendtittle {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
