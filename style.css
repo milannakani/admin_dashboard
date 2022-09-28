@@ -230,12 +230,13 @@ img.privacyicon {
 }
 .project {
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px,400px));
+    grid-template-columns: repeat(2, minmax(350px,400px));
     grid-template-rows: 40px 180px 180px 180px;
     background-color: #cbd5e1;
     gap: 10px;
     padding: 10px;
     grid-column: 1;
+    overflow: auto;
 }
 .projectinside {
     display: flex;
@@ -289,18 +290,27 @@ img.privacyicon {
     padding-top: 10px;
     font-size: 20px;
     font-weight:500;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
 }
 .boxcontentone {
+    display: grid;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    height: 300px;
+    width:300px;
+    margin: 0px;
 }
 .abox {
-
+//padding: 10px;
 }
 .line {
     height: 1px;
-    width: auto;
-    background: black;
-
+    background: #cbd5e1;
+    margin-top: 20px;
+}
+.boxtitle {
+    font-weight: bold;
+    font-size: 16px;
 }
